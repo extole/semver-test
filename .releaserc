@@ -2,7 +2,7 @@ branches:
   - master
   - next
   - next-major
-  - 'feature-.*'
+  - feature-.*
   - name: alpha
     prerelease: true
   - name: beta
