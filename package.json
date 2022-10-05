@@ -3,6 +3,15 @@
   "version": "0.0.0",
   "description": "Extole React Native SDK",
   "main": "index.js",
+  "release": {
+    "branches": ["master", "next", "next-major", "feature-.*", { "name": "beta", "prerelease": true}, { "name": "alpha", "prerelease": true}],
+    "debug": true,
+    "ci": true,
+    "dryRun": false,
+    "plugins": [
+      "@semantic-release/commit-analyzer", "@semantic-release/release-notes-generator", "@semantic-release/github"
+    ]
+  },
   "scripts": {
     "test": "test",
     "semantic-release": "semantic-release"
