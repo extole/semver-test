@@ -2,7 +2,13 @@ name: Release
 on:
   workflow_dispatch:
   push:
-    branches: [ master, alpha, beta ]
+    branches: 
+      - master
+      - feature-**
+      - next
+      - next-major
+      - alpha
+      - beta
 
 env:
   E_GITHUB_TOKEN: "${{ secrets.EXTOLE_GITHUB_PAT }}"
