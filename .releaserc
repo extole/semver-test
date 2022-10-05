@@ -1,5 +1,8 @@
 branches:
   - master
+  - next
+  - next-major
+  - 'feature-.*'
   - name: alpha
     prerelease: true
   - name: beta
