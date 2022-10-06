@@ -6,3 +6,4 @@
 // new feature in beta
 // new breaking change
 // new major change
+// new feature
