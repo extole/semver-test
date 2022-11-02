@@ -1,0 +1,20 @@
+{
+  "name": "extole-react-native",
+  "version": "0.0.0",
+  "description": "Extole React Native SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/extole/semver-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/extole/semver-test/issues"
+  },
+  "homepage": "https://github.com/extole/semver-test#readme"
+}
