@@ -1,20 +1,19 @@
 {
-  "name": "extole-react-native",
-  "version": "0.0.0",
-  "description": "Extole React Native SDK",
-  "main": "index.js",
+  "name": "semver-test",
+  "version": "1.0.0",
+  "description": "Testing semantic versioning",
+  "main": "src/index.js",
+  "repository": "https://github.com/extole/semver-test",
   "scripts": {
-    "test": "test",
-    "semantic-release": "semantic-release"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/extole/semver-test.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/extole/semver-test/issues"
   },
-  "homepage": "https://github.com/extole/semver-test#readme"
+  "homepage": "https://github.com/extole/semver-test#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
