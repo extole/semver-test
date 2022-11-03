@@ -1,5 +1,5 @@
 function testing() {
-	return "New major release"
+	return "New feature for zoom"
 }
 
 export default testing;
