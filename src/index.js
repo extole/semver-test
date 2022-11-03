@@ -1,5 +1,5 @@
 function testing() {
-	return "Testing semantic versioning"
+	return "Testing semantic versioning master"
 }
 
 export default testing;
