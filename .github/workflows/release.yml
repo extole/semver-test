@@ -11,6 +11,7 @@ on:
 
 env:
   E_GITHUB_TOKEN: "${{ secrets.EXTOLE_GITHUB_PAT }}"
+  NPM_ACCESS_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
 
 jobs:
   release:
@@ -30,4 +31,5 @@ jobs:
       - name: Release to prod
         env:
           GITHUB_TOKEN: ${{ env.E_GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ env.NPM_ACCESS_TOKEN }}
         run: npx semantic-release
