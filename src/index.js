@@ -1,5 +1,5 @@
 function testing() {
-	return "Testing semantic versioning for hsn with master"
+	return "New major release"
 }
 
 export default testing;
