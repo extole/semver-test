@@ -1,5 +1,5 @@
 {
-  "name": "semver-test",
+  "name": "extole-semver-test",
   "version": "1.0.0",
   "description": "Testing semantic versioning",
   "main": "src/index.js",
