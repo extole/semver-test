@@ -34,13 +34,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/extole/react-native",
+  "repository": "https://github.com/extole/semver-test",
   "author": "extole <contact@extole.com> (https://extole.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/extole/react-native/issues"
+    "url": "https://github.com/extole/semver-test/issues"
   },
-  "homepage": "https://github.com/extole/react-native#readme",
+  "homepage": "https://github.com/extole/semver-test#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
