@@ -42,7 +42,8 @@
   },
   "homepage": "https://github.com/extole/semver-test#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.18.2",
